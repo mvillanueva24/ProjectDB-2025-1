@@ -25,6 +25,13 @@ Route::prefix('admin')->group(function () {
     Route::post('/peliculas/delete/{id}', [AdminPeliculasController::class, 'destroy'])->name('admin.peliculas.delete');
     Route::post('/peliculas/store', [AdminPeliculasController::class, 'store'])->name('admin.peliculas.store');
     Route::post('/peliculas/update/{id}', [AdminPeliculasController::class, 'update'])->name('admin.peliculas.update');
+    
+    // Rutas para reportes
+    Route::get('/reportes/funciones', [AdminPeliculasController::class, 'exportarReporteFunciones'])->name('admin.reportes.funciones');
+    Route::get('/reportes/asientos', [AdminPeliculasController::class, 'exportarReporteAsientos'])->name('admin.reportes.asientos');
+    Route::get('/reportes/peliculas-por-cine', [AdminPeliculasController::class, 'exportarReportePeliculasPorCine'])->name('admin.reportes.peliculas-por-cine');
+    Route::get('/reportes/peliculas-por-genero', [AdminPeliculasController::class, 'exportarReportePeliculasPorGenero'])->name('admin.reportes.peliculas-por-genero');
+    Route::get('/reportes/generos-mas-reservados', [AdminPeliculasController::class, 'exportarReporteGenerosMasReservados'])->name('admin.reportes.generos-mas-reservados');
 });
 
 Route::prefix('cliente')->group(function () {
