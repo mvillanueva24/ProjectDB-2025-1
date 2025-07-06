@@ -1,0 +1,57 @@
+{
+  "Miembro_reparto": [
+    {"id_miembro": 1, "nombre_miembro": "Robert Downey Jr."},
+    {"id_miembro": 2, "nombre_miembro": "Scarlett Johansson"},
+    {"id_miembro": 3, "nombre_miembro": "Chris Evans"},
+    {"id_miembro": 4, "nombre_miembro": "Tom Holland"},
+    {"id_miembro": 5, "nombre_miembro": "Mark Ruffalo"}
+  ],
+  "Reparto_pelicula": [
+    {"id_pelicula": 1, "id_miembro": 1},
+    {"id_pelicula": 1, "id_miembro": 2},
+    {"id_pelicula": 1, "id_miembro": 3},
+    {"id_pelicula": 2, "id_miembro": 4},
+    {"id_pelicula": 2, "id_miembro": 2},
+    {"id_pelicula": 3, "id_miembro": 5},
+    {"id_pelicula": 3, "id_miembro": 1},
+    {"id_pelicula": 4, "id_miembro": 3},
+    {"id_pelicula": 4, "id_miembro": 4},
+    {"id_pelicula": 5, "id_miembro": 2}
+  ],
+  "Genero": [
+    {"id_genero": 1, "nombre_genero": "Acción"},
+    {"id_genero": 2, "nombre_genero": "Aventura"},
+    {"id_genero": 3, "nombre_genero": "Ciencia Ficción"},
+    {"id_genero": 4, "nombre_genero": "Comedia"},
+    {"id_genero": 5, "nombre_genero": "Drama"}
+  ],
+  "Genero_pelicula": [
+    {"id_pelicula": 1, "id_genero": 1},
+    {"id_pelicula": 1, "id_genero": 3},
+    {"id_pelicula": 2, "id_genero": 2},
+    {"id_pelicula": 3, "id_genero": 4},
+    {"id_pelicula": 4, "id_genero": 5},
+    {"id_pelicula": 5, "id_genero": 1}
+  ],
+  "Pelicula": [
+    {"id_pelicula": 1, "id_director": 1, "id_estado": 1, "titulo": "Avengers: Endgame", "clasificacion_edad": "PG-13", "duracion": 181, "fecha_estreno": "2019-04-26", "descripcion": "Los Vengadores se reúnen para derrotar a Thanos.", "sinopsis": "Después de los eventos devastadores de Infinity War, los Vengadores restantes deben encontrar una manera de revertir las acciones de Thanos.", "link_trailer": "https://youtu.be/TcMBFSGVi1c"},
+    {"id_pelicula": 2, "id_director": 2, "id_estado": 2, "titulo": "Spider-Man: Homecoming", "clasificacion_edad": "PG-13", "duracion": 133, "fecha_estreno": "2017-07-07", "descripcion": "Peter Parker equilibra la vida escolar y ser Spider-Man.", "sinopsis": "Peter Parker intenta demostrar que puede ser un Vengador mientras enfrenta a un nuevo villano, el Buitre.", "link_trailer": "https://youtu.be/U0D3AOldjMU"},
+    {"id_pelicula": 3, "id_director": 3, "id_estado": 1, "titulo": "Hulk: El Hombre Increíble", "clasificacion_edad": "PG-13", "duracion": 112, "fecha_estreno": "2008-06-13", "descripcion": "Bruce Banner busca una cura para su condición.", "sinopsis": "Bruce Banner huye del gobierno mientras busca una cura para su transformación en Hulk.", "link_trailer": "https://youtu.be/xbqNb2PFKKA"},
+    {"id_pelicula": 4, "id_director": 4, "id_estado": 3, "titulo": "Capitán América: El Primer Vengador", "clasificacion_edad": "PG-13", "duracion": 124, "fecha_estreno": "2011-07-22", "descripcion": "Steve Rogers se convierte en Capitán América.", "sinopsis": "Durante la Segunda Guerra Mundial, Steve Rogers se convierte en el superhéroe Capitán América para luchar contra Hydra.", "link_trailer": "https://youtu.be/JerVrbLldXw"},
+    {"id_pelicula": 5, "id_director": 5, "id_estado": 1, "titulo": "Viuda Negra", "clasificacion_edad": "PG-13", "duracion": 134, "fecha_estreno": "2021-07-09", "descripcion": "Natasha Romanoff enfrenta su pasado.", "sinopsis": "Natasha Romanoff, también conocida como Viuda Negra, debe enfrentar su pasado y las relaciones rotas antes de convertirse en Vengadora.", "link_trailer": "https://youtu.be/Fp9pNPdNwjI"}
+  ],
+  "Director": [
+    {"id_director": 1, "nombre_director": "Anthony Russo"},
+    {"id_director": 2, "nombre_director": "Jon Watts"},
+    {"id_director": 3, "nombre_director": "Louis Leterrier"},
+    {"id_director": 4, "nombre_director": "Joe Johnston"},
+    {"id_director": 5, "nombre_director": "Cate Shortland"}
+  ],
+  "Estado_pelicula": [
+    {"id_estado": 1, "nombre_estado_pelicula": "En Cartelera"},
+    {"id_estado": 2, "nombre_estado_pelicula": "Próximo Estreno"},
+    {"id_estado": 3, "nombre_estado_pelicula": "No Disponible"},
+    {"id_estado": 4, "nombre_estado_pelicula": "En Producción"},
+    {"id_estado": 5, "nombre_estado_pelicula": "Archivada"}
+  ]
+} 
